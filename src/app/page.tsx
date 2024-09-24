@@ -1,6 +1,6 @@
 'use client'
 
-import Image from "next/image";
+
 import Link from "next/link";
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa"; // Corrected Font Awesome imports
 import { BiLogoInstagramAlt } from "react-icons/bi"; // Boxicons import
@@ -77,7 +77,7 @@ export default function Home() {
 
 
         {/* Image for small devices */}
-        <Image
+        <img
   src="https://static.vecteezy.com/system/resources/thumbnails/030/798/360/small_2x/beautiful-asian-girl-wearing-over-size-hoodie-in-casual-style-ai-generative-photo.jpg"
   className="mt-4 mx-auto rounded-full h-[200px] w-[200px] object-cover border border-[#AD49E1] shadow-[0_0_10px_1px_rgba(173,73,225,0.8)] block xl:hidden"
   alt="Hadiqa Gohar"
@@ -101,7 +101,7 @@ export default function Home() {
       <div className="w-1/4 md:w-1/3 lg:w-1/4 bg-[#7A1CAC]"></div>
 
       {/* Image positioned 70% on the left section and hidden on small devices */}
-      <Image
+      <img
   src="https://static.vecteezy.com/system/resources/thumbnails/030/798/360/small_2x/beautiful-asian-girl-wearing-over-size-hoodie-in-casual-style-ai-generative-photo.jpg"
   className="absolute left-[82.5%] transform -translate-x-[80%] top-1/2 -translate-y-1/2 rounded-full h-[400px] w-[400px] object-cover m-2 border border-[#AD49E1] shadow-[0_0_10px_1px_rgba(173,73,225,0.8)] hidden xl:block"
   alt="Hadiqa Gohar"

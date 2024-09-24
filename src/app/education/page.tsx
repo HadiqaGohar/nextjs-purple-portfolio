@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 
 export default function Education() {
     return (
@@ -45,7 +45,7 @@ export default function Education() {
                     {/* Image for small devices */}
                     <img
                     src="https://img.freepik.com/premium-photo/magic-book-purple-neon-light-cover_729592-80.jpg"
-                        // src="https://static.vecteezy.com/system/resources/thumbnails/030/798/360/small_2x/beautiful-asian-girl-wearing-over-size-hoodie-in-casual-style-ai-generative-photo.jpg"
+                        
                         className="mt-4 mx-auto rounded-full h-[200px] w-[200px] object-cover border border-[#AD49E1] shadow-[0_0_10px_1px_rgba(173,73,225,0.8)] block xl:hidden"
                         alt="Hadiqa Gohar"
                     />
@@ -62,13 +62,12 @@ export default function Education() {
 
                 
                 {/* Image positioned 70% on the left section and hidden on small devices */}
-                <Image
-    src="https://img.freepik.com/premium-photo/magic-book-purple-neon-light-cover_729592-80.jpg"
-    className="absolute left-[82.5%] transform -translate-x-[80%] top-1/2 -translate-y-1/2 rounded-full h-[400px] w-[400px] object-cover m-2 border border-[#AD49E1] shadow-[0_0_10px_1px_rgba(173,73,225,0.8)] hidden xl:block"
-    alt="Hadiqa Gohar"
-    width={400}
-    height={400}
-/>
+                <img
+                src="https://img.freepik.com/premium-photo/magic-book-purple-neon-light-cover_729592-80.jpg"
+                
+                    className="absolute left-[82.5%] transform -translate-x-[80%] top-1/2 -translate-y-1/2 rounded-full h-[400px] w-[400px] object-cover m-2 border border-[#AD49E1] shadow-[0_0_10px_1px_rgba(173,73,225,0.8)] hidden xl:block"
+                    alt="Hadiqa Gohar"
+                />
 
                 </div>
             </main>
