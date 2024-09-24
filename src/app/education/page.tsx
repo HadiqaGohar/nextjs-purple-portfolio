@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 
 export default function Education() {
     return (
@@ -9,11 +9,12 @@ export default function Education() {
 
                     {/* hr & 3 DOTS... */}
                     <div className="grid grid-flow-col gap-4 justify-end m-5">
-                        <hr className="mt-4 border-2 lg:border-4 border-[#AD49E1] w-20 md:w-28" />
-                        {Array(3).fill(
-                            <div className="rounded-full bg-[#EBD3F8] h-[20px] w-[20px] lg:h-[30px] lg:w-[30px]"></div>
-                        )}
-                    </div>
+    <hr className="mt-4 border-2 lg:border-4 border-[#AD49E1] w-20 md:w-28" />
+    {[...Array(3)].map((_, index) => (
+        <div key={index} className="rounded-full bg-[#EBD3F8] h-[20px] w-[20px] lg:h-[30px] lg:w-[30px]"></div>
+    ))}
+</div>
+
 
                     <h1 className="xl:mr-48 text-white text-4xl mt-48 sm:ml-40 font-semibold italic">
                         MY EDUCATION
@@ -61,12 +62,13 @@ export default function Education() {
 
                 
                 {/* Image positioned 70% on the left section and hidden on small devices */}
-                <img
-                src="https://img.freepik.com/premium-photo/magic-book-purple-neon-light-cover_729592-80.jpg"
-                    // src="https://static.vecteezy.com/system/resources/thumbnails/030/798/360/small_2x/beautiful-asian-girl-wearing-over-size-hoodie-in-casual-style-ai-generative-photo.jpg"
-                    className="absolute left-[82.5%] transform -translate-x-[80%] top-1/2 -translate-y-1/2 rounded-full h-[400px] w-[400px] object-cover m-2 border border-[#AD49E1] shadow-[0_0_10px_1px_rgba(173,73,225,0.8)] hidden xl:block"
-                    alt="Hadiqa Gohar"
-                />
+                <Image
+    src="https://img.freepik.com/premium-photo/magic-book-purple-neon-light-cover_729592-80.jpg"
+    className="absolute left-[82.5%] transform -translate-x-[80%] top-1/2 -translate-y-1/2 rounded-full h-[400px] w-[400px] object-cover m-2 border border-[#AD49E1] shadow-[0_0_10px_1px_rgba(173,73,225,0.8)] hidden xl:block"
+    alt="Hadiqa Gohar"
+    width={400}
+    height={400}
+/>
 
                 </div>
             </main>

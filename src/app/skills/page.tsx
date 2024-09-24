@@ -1,5 +1,6 @@
 
-import Link from "next/link"
+
+import Image from "next/image"
 
 export default function Skills() {
     return (
@@ -55,7 +56,7 @@ export default function Skills() {
                     </div>
                 </section>
                 {/* Image for small devices */}
-                <img
+                <Image
                  src="https://img.freepik.com/premium-photo/robot-with-purple-lights_81048-38584.jpg?w=826"
                     // src="https://static.vecteezy.com/system/resources/thumbnails/030/798/360/small_2x/beautiful-asian-girl-wearing-over-size-hoodie-in-casual-style-ai-generative-photo.jpg"
                     className="mt-4 mx-auto rounded-full h-[200px] w-[200px] object-cover border border-[#AD49E1] shadow-[0_0_10px_1px_rgba(173,73,225,0.8)] block xl:hidden"
@@ -63,7 +64,7 @@ export default function Skills() {
                 />
                 
                 {/* Image positioned 70% on the left section and hidden on small devices */}
-                <img
+                <Image
                  src="https://img.freepik.com/premium-photo/robot-with-purple-lights_81048-38584.jpg?w=826"
                     // src="https://static.vecteezy.com/system/resources/thumbnails/030/798/360/small_2x/beautiful-asian-girl-wearing-over-size-hoodie-in-casual-style-ai-generative-photo.jpg"
                     className="absolute left-[82.5%] transform -translate-x-[80%] top-1/2 -translate-y-1/2 rounded-full h-[400px] w-[400px] object-cover m-2 border border-[#AD49E1] shadow-[0_0_10px_1px_rgba(173,73,225,0.8)] hidden xl:block"

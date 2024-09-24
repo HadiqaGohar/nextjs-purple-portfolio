@@ -1,7 +1,8 @@
 'use client'
 
+import Image from "next/image";
 import Link from "next/link";
-import { FaFacebookSquare, FaLinkedin, FaGithubSquare } from "react-icons/fa"; // Corrected Font Awesome imports
+import { FaLinkedin, FaGithubSquare } from "react-icons/fa"; // Corrected Font Awesome imports
 import { BiLogoInstagramAlt } from "react-icons/bi"; // Boxicons import
 import { MdEmail } from "react-icons/md"; // Material Design Icons import
 import { FaSquareFacebook } from "react-icons/fa6";
@@ -25,14 +26,15 @@ export default function Home() {
 
         {/* Headings */}
         <h1 className="text-white text-xl md:text-2xl mt-20 sm:mt-32 md:mt-48 mx-10 sm:mx-20 md:mx-40">
-          𝓗𝓮𝓵𝓵𝓸 𝓔𝓿𝓮𝓻𝔂𝓸𝓷𝓮
-        </h1>
-        <h2 className="text-white text-4xl lg:text-6xl mt-2 mx-10 sm:mx-20 md:mx-40 font-bold">
-          I'm Hadiqa Gohar
-        </h2>
-        <h3 className="text-[#AD49E1] text-3xl md:text-4xl mt-2 mx-10 sm:mx-20 md:mx-40 font-semibold">
-          And I'm a Frontend Developer
-        </h3>
+  𝓗𝓮𝓵𝓵𝓸 𝓔𝓿𝓮𝓻𝔂𝓸𝓷𝓮
+</h1>
+<h2 className="text-white text-4xl lg:text-6xl mt-2 mx-10 sm:mx-20 md:mx-40 font-bold">
+  I&apos;m Hadiqa Gohar
+</h2>
+<h3 className="text-[#AD49E1] text-3xl md:text-4xl mt-2 mx-10 sm:mx-20 md:mx-40 font-semibold">
+  And I&apos;m a Frontend Developer
+</h3>
+
 
         {/* Social Media Icons */}
         <div className="flex space-x-2.5 m-5 ml-10 sm:ml-20 md:ml-40">
@@ -75,11 +77,13 @@ export default function Home() {
 
 
         {/* Image for small devices */}
-        <img
-          src="https://static.vecteezy.com/system/resources/thumbnails/030/798/360/small_2x/beautiful-asian-girl-wearing-over-size-hoodie-in-casual-style-ai-generative-photo.jpg"
-          className="mt-4 mx-auto rounded-full h-[200px] w-[200px] object-cover border border-[#AD49E1] shadow-[0_0_10px_1px_rgba(173,73,225,0.8)] block xl:hidden"
-          alt="Hadiqa Gohar"
-        />
+        <Image
+  src="https://static.vecteezy.com/system/resources/thumbnails/030/798/360/small_2x/beautiful-asian-girl-wearing-over-size-hoodie-in-casual-style-ai-generative-photo.jpg"
+  className="mt-4 mx-auto rounded-full h-[200px] w-[200px] object-cover border border-[#AD49E1] shadow-[0_0_10px_1px_rgba(173,73,225,0.8)] block xl:hidden"
+  alt="Hadiqa Gohar"
+  width={200}
+  height={200}
+/>
 
         {/* Three         Dots */}
         <div className="grid grid-flow-col gap-4 justify-start mt-[310px] mx-5 mb-6">
@@ -97,11 +101,13 @@ export default function Home() {
       <div className="w-1/4 md:w-1/3 lg:w-1/4 bg-[#7A1CAC]"></div>
 
       {/* Image positioned 70% on the left section and hidden on small devices */}
-      <img
-        src="https://static.vecteezy.com/system/resources/thumbnails/030/798/360/small_2x/beautiful-asian-girl-wearing-over-size-hoodie-in-casual-style-ai-generative-photo.jpg"
-        className="absolute left-[82.5%] transform -translate-x-[80%] top-1/2 -translate-y-1/2 rounded-full h-[400px] w-[400px] object-cover m-2 border border-[#AD49E1] shadow-[0_0_10px_1px_rgba(173,73,225,0.8)] hidden xl:block"
-        alt="Hadiqa Gohar"
-      />
+      <Image
+  src="https://static.vecteezy.com/system/resources/thumbnails/030/798/360/small_2x/beautiful-asian-girl-wearing-over-size-hoodie-in-casual-style-ai-generative-photo.jpg"
+  className="absolute left-[82.5%] transform -translate-x-[80%] top-1/2 -translate-y-1/2 rounded-full h-[400px] w-[400px] object-cover m-2 border border-[#AD49E1] shadow-[0_0_10px_1px_rgba(173,73,225,0.8)] hidden xl:block"
+  alt="Hadiqa Gohar"
+  width={400}
+  height={400}
+/>
 
     </main>
   )

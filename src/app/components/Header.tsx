@@ -1,7 +1,6 @@
 'use client'
 
 import Link from "next/link";
-import { TiThMenu } from "react-icons/ti";
 import { useState } from "react";
 
 export default function Header() {
