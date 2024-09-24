@@ -13,18 +13,18 @@ export default function About() {
                     ))}
                 </div>
 
-                <h1 className="text-white ml-0 font-bold text-4xl mt-48  md:ml-20 sm:ml-5  sm:text-3xl ">
+                <h1 className="text-white ml-2 font-bold text-4xl mt-48  md:ml-20 sm:ml-5  sm:text-3xl ">
                     Hi!
                 </h1>
-                <h2 className="text-[#AD49E1] text-5xl mt-2 ml-0 md:ml-20 sm:ml-5 font-bold  sm:text-4xl">
+                <h2 className="text-[#AD49E1] text-4xl mt-2 ml-2 md:ml-20 sm:ml-5 font-bold   md:text-5xl">
                     I'm Hadiqa Gohar
                     <hr className=" mx-auto mt-4 border-4 border-[#AD49E1] w-28 ml-0" />
                 </h2>
-                <p className="sm:mr-48 text-[#EBD3F8] text-xl mt-2 ml-0 md:ml-20 sm:ml-5 font-serif font-semibold  sm:text-lg ">
+                <p className="sm:mr-48 text-[#EBD3F8] text-xl mt-2 ml-2 md:ml-20 sm:ml-5 font-serif font-semibold  md:text-lg ">
                     A passionate web developer with expertise in HTML, CSS, JavaScript, Python, and TypeScript. My focus is on creating dynamic and responsive web applications using modern tools like Next.js, React.js, and Tailwind CSS. I enjoy turning complex ideas into intuitive and engaging user experiences. With a background in science and AI studies, I bring a strong analytical approach to problem-solving. My commitment to continuous learning drives me to stay updated with the latest technologies and best practices in web development. I’m excited about every opportunity to innovate and grow in this ever-evolving field.
                 </p>
                 <Link href="/" passHref>
-                    <button className="bg-[#EBD3F8] hover:bg-[#952dcd] hover:text-white h-[40px] w-[100px] border-2 rounded-lg text-[#2E073F] mt-6 ml-0 md:ml-20 sm:ml-5 font-bold transition-all duration-300 ease-in-out shadow-[0_0_15px_#952dcd] hover:shadow-[0_0_30px_#952dcd] mx-auto">
+                    <button className="bg-[#EBD3F8] hover:bg-[#952dcd] hover:text-white h-[40px] w-[100px] border-2 rounded-lg text-[#2E073F] mt-6 ml-2 md:ml-20 sm:ml-5 font-bold transition-all duration-300 ease-in-out shadow-[0_0_15px_#952dcd] hover:shadow-[0_0_30px_#952dcd] mx-auto">
                         Read More
                     </button>
                 </Link>

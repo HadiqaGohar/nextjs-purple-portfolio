@@ -37,7 +37,7 @@ export default function Home() {
 
 
         {/* Social Media Icons */}
-        <div className="flex space-x-2.5 m-5 ml-10 sm:ml-20 md:ml-40">
+        <div className="flex space-x-2.5 m-5 ml-1 sm:ml-20 md:ml-40">
           <Link
             href="https://m.facebook.com/p/Hadiqa-Gohar-61554985182774/"
             aria-label="Facebook"

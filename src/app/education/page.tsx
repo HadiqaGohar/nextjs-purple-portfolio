@@ -16,26 +16,26 @@ export default function Education() {
 </div>
 
 
-                    <h1 className="xl:mr-48 text-white text-4xl mt-48 sm:ml-40 font-semibold italic">
+                    <h1 className="xl:mr-48 text-white text-4xl ml-9 mt-48 sm:ml-40 font-semibold italic">
                         MY EDUCATION
-                        <hr className="mt-4 border-4 border-[#AD49E1] w-28 ml-0" />
+                        <hr className="mt-4 border-4 border-[#AD49E1] w-28 ml-4" />
                     </h1>
 
-                    <div className="sm:ml-40 mt-8 mr-48">
+                    <div className="sm:ml-40 mt-8 ml-9 mr-14 md:mr-48">
                         <h3 className="text-[#AD49E1] text-5xl font-semibold font-serif">
                             2020-2022 <span className="text-2xl text-white">Matric of Science in <span className="text-[#AD49E1]">(Biology)</span></span>
                         </h3>
                         <p className="text-white text-xl mt-2 ml-16 font-extrabold">School: <span className="text-[#AD49E1] font-semibold">E.A.B.G.G.S.S</span></p>
                     </div>
 
-                    <div className="sm:ml-40 mt-4 mr-48" >
+                    <div className="sm:ml-40 mt-4 ml-9 mr-14 md:mr-48" >
                         <h3 className="text-[#AD49E1] text-5xl font-semibold font-serif">
                             2023-2024 <span className="text-2xl text-white">Intermediate of Science in <span className="text-[#AD49E1]">(Pre-medical)</span></span>
                         </h3>
                         <p className="text-white text-xl mt-2 ml-16 font-extrabold">College: <span className="text-[#AD49E1] font-semibold">G.I.S.A.C.C</span></p>
                     </div>
 
-                    <div className="sm:ml-40 mt-4 mr-48">
+                    <div className="sm:ml-40 mt-4 ml-9 mr-14 md:mr-48">
                         <h3 className="text-[#AD49E1] text-5xl font-semibold font-serif">
                             2024-2025 <span className="text-2xl text-white">Artificial Intelligence <span className="text-[#AD49E1]">(AI)</span></span>
                         </h3>

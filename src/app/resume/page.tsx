@@ -70,7 +70,7 @@ const Resume = () => {
                     <div className="mb-8">
                         <h2 className="text-2xl font-semibold border-b-2 pb-2 border-[#AD49E1]">About Me</h2>
                         <p className="text-base mt-4">
-                            I am a Medical Student and a Senior Student at the Governor Initiative for Cloud Applied Generative AI, Web 3.0 & Metaverse...
+                        Hadiqa Gohar is a skilled developer with expertise in HTML, CSS, JavaScript, Node.js, and TypeScript. She is currently focused on building projects using Python, Next.js and React.js, including a personal portfolio website and an interactive resume for a hackathon. Hadiqa is dedicated to enhancing her skills in web development and design, employing tools like Tailwind CSS for styling and ensuring responsive layouts through media queries. She values functionality, accessibility, and user experience in her projects.
                         </p>
                     </div>
 
