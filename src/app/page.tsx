@@ -1,11 +1,13 @@
 'use client'
 
 import Link from "next/link";
+import { FaFacebookSquare, FaLinkedin, FaGithubSquare } from "react-icons/fa"; // Corrected Font Awesome imports
+import { BiLogoInstagramAlt } from "react-icons/bi"; // Boxicons import
+import { MdEmail } from "react-icons/md"; // Material Design Icons import
 import { FaSquareFacebook } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { BiLogoInstagramAlt } from "react-icons/bi";
-import { FaGithubSquare } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+
+
+
 
 export default function Home() {
   return (
